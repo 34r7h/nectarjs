@@ -1,0 +1,52 @@
+{
+    "name": "njs-webview",
+    "description": "NectarJS Simple Webview module",
+    "main": "index.js",
+    "bugs": {
+        "url": "https://github.com/NectarJS/nectar-modules/issues"
+    },
+    "directories": {
+        "root": ".",
+        "lib": "lib"
+    },
+    "homepage": "https://github.com/NectarJS/nectar-modules#readme",
+    "keywords": [
+        "nectarjs",
+        "webview",
+        "nodejs",
+        "node"
+    ],
+    "license": {
+        "type": "MIT",
+        "url": "https://github.com/NectarJS/nectar-modules/blob/master/LICENSE"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/NectarJS/nectar-modules.git"
+    },
+    "version": "0.0.1",
+    "nectar": {
+        "env": [
+            "std",
+            "node"
+        ],
+        "expose": [
+            "__NJS_CREATE",
+            "__NJS_DESTROY",
+            "__NJS_RUN",
+            "__NJS_TERMINATE",
+            "__NJS_DISPATCH",
+            "__NJS_GET_WINDOW",
+            "__NJS_SET_TITLE",
+            "__NJS_SET_SIZE",
+            "__NJS_NAVIGATE",
+            "__NJS_INIT",
+            "__NJS_EVAL",
+            "__NJS_BIND",
+            "__NJS_RETURN",
+        ],
+        "lib": [
+            "-lpthread"
+        ]
+    }
+}
